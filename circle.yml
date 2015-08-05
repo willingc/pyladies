@@ -1,17 +1,31 @@
+## circle.yml configuration file
+## based on https://circleci.com/docs/config-sample
+
+## Customize the test machine
 machine:
+
   python:
     version: 2.7.6
 
+## Customize checkout
+
+## Customize dependencies
 dependencies:
   pre:
     - pip install mynt==0.2.3 Fabric==1.10.2
 
+## Customize database setup
+
+## Customize test commands
 test:
   override:
-    - ./test_www.py
+    - ./test_www.py > mytest.log
 
-deployment:
-  production:
-    branch: master
-    commands:
-      - fab deploy_www
+## Customize deployment commands
+#deployment:
+#  production:
+#    branch: master
+#    commands:
+#      - fab deploy_www
+
+## Custom notifications
