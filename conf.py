@@ -137,7 +137,7 @@ NAVIGATION_LINKS = {
         ("/blog/", "Blog"),
         ("/pages/CodeOfConduct/", "Code of Conduct"),
         ("/pages/resources/", "Resources"),
-        ("/contact", "Contact"),
+        ("mailto:info@pyladies.com?subject=Hello", "Contact"),
         ("/rss.xml", "RSS feed"),
     ),
 }
