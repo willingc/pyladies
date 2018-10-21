@@ -1,19 +1,13 @@
 # -*- coding: utf-8 -*-
 
+from __future__ import unicode_literals
+import os
 import time
+import jinja2
+import markdown
 
 # !! This is the configuration of Nikola. !! #
 # !!  You should edit it to your liking.  !! #
-
-
-# ! Some settings can be different in different languages.
-# ! A comment stating (translatable) is used to denote those.
-# ! There are two ways to specify a translatable setting:
-# ! (a) BLOG_TITLE = "My Blog"
-# ! (b) BLOG_TITLE = {"en": "My Blog", "es": "Mi Blog"}
-# ! Option (a) is used when you don't want that setting translated.
-# ! Option (b) is used for settings that are different in different languages.
-
 
 # Data about this site
 BLOG_AUTHOR = "PyLadies"  # (translatable)
