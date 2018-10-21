@@ -136,7 +136,7 @@ NAVIGATION_LINKS = {
         ("/locations/", "Locations"),
         ("/blog/", "Blog"),
         ("/pages/CodeOfConduct/", "Code of Conduct"),
-        ("/resources/", "Resources"),
+        ("/pages/resources/", "Resources"),
         ("/contact", "Contact"),
         ("/rss.xml", "RSS feed"),
     ),
