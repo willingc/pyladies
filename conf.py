@@ -17,7 +17,7 @@ BLOG_TITLE = "PyLadies"  # (translatable)
 SITE_URL = "https://pyladies.com/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
-# BASE_URL = "https://pyladies.com/"
+BASE_URL = "http://localhost:8000/"
 BLOG_EMAIL = "pyladies@pyladies.com"
 BLOG_DESCRIPTION = "The PyLadies site"  # (translatable)
 
@@ -131,7 +131,8 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/", "Home"),
-        ("/about/", "About"),
+        ("/pages/about/", "About"),
+        ("/pages/help/", "Help"),
         ("/forum/", "Forum"),
         ("/locations/", "Locations"),
         ("/blog/", "Blog"),
