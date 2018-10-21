@@ -1,3 +1,2 @@
-mynt==0.3.1
-Fabric==1.13.1
-docutils
+Nikola[extras]
+
