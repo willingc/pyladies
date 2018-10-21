@@ -132,7 +132,6 @@ NAVIGATION_LINKS = {
     DEFAULT_LANG: (
         ("/", "Home"),
         ("/pages/about/", "About"),
-        ("/pages/help/", "Help"),
         ("/forum/", "Forum"),
         ("/locations/", "Locations"),
         ("/blog/", "Blog"),
