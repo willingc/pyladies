@@ -24,7 +24,6 @@ jobs:
       - run:
           name: install dependencies and version
           command: |
-            mkdir .venv && cd .venv
             python2 -m pip install --upgrade pip setuptools wheel
             python2 -m pip install virtualenv
             virtualenv venv
@@ -36,10 +35,10 @@ jobs:
       - run:
           name: python tests
           command: |
-            . .venv/venv/bin/activate
+            . venv/bin/activate
             ./test_www.py > mytest.log
             less mytest.log
       - save_cache:
           paths:
-            - .venv/venv
+            - venv
           key: v2-dependencies-{{ checksum "requirements.txt" }}
