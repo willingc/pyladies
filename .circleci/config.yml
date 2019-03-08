@@ -7,9 +7,9 @@ version: 2
 jobs:
   build:
     docker:
-      - image: circleci/python:2.7.15-node-browsers
+      - image: circleci/python:2.7.16-node-browsers
 
-    working_directory: ~/repo
+    working_directory: ~/pyladies
 
     steps:
 
@@ -33,14 +33,13 @@ jobs:
             cd ..
             pip install --upgrade pip setuptools wheel
             pip install -r requirements.txt
-            pip install ~/repo/.
 
       - run:
           name: python tests
           command: |
-            . venv/bin/activate
+            . .venv/venv/bin/activate
             ./test_www.py > mytest.log
       - save_cache:
           paths:
-            - ./venv
+            - .venv/venv
           key: v2-dependencies-{{ checksum "requirements.txt" }}
