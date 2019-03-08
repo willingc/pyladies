@@ -20,6 +20,8 @@ jobs:
             # fallback to using the latest cache if no exact match is found
             - v2-dependencies-
 
+      - checkout
+
       - run:
           name: install dependencies and version
           command: |
@@ -29,15 +31,9 @@ jobs:
             virtualenv venv
             . venv/bin/activate
             cd ..
-        
-      - checkout
-
-      - run: 
-         name: install into virtualenv
-         command: |
             pip install --upgrade pip setuptools wheel
             pip install -r requirements.txt
-            pip install .
+            pip install ~/repo/.
 
       - run:
           name: python tests
