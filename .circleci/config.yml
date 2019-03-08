@@ -30,7 +30,7 @@ jobs:
             . venv/bin/activate
             cd ..
             pip install --upgrade pip setuptools wheel
-            pip install -r requirements.txt
+            pip install -r ~/pyladies/requirements.txt
 
       - run:
           name: python tests
