@@ -39,6 +39,7 @@ jobs:
           command: |
             . .venv/venv/bin/activate
             ./test_www.py > mytest.log
+            less mytest.log
       - save_cache:
           paths:
             - .venv/venv
