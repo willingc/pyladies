@@ -6,3 +6,11 @@
 - pelicanconf.py
 - publishconf.py
 - tasks.py
+
+## Build and serve
+
+```
+pelican content
+pelican --listen
+```
+
