@@ -1,10 +1,4 @@
-{% extends \"site.html\" %} {% block title %}Locations{% endblock %} {%
-block style %} {% endblock %} {% block headjs %} {{ super() }}
-
-{% endblock %} {% block content %}
-
-PyLadies Locations
-==================
+Title: Locations
 
 PyLadies Locations
 ------------------

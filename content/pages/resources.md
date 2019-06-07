@@ -1,9 +1,4 @@
-{% extends \"site.html\" %} {% block title %}Resources{% endblock %} {%
-block content %}
-
-::: {#archive .section}
-Resources
-=========
+Title: Resources
 
 Resources we\'ve written
 ------------------------

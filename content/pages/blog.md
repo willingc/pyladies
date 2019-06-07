@@ -1,9 +1,4 @@
-{% extends \"site.html\" %} {% block title %}Blog{% endblock %} {% block
-content %}
-
-::: {#archive .section}
-Blog
-====
+Title: Blog
 
 Blog
 ----

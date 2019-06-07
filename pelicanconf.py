@@ -35,6 +35,5 @@ DEFAULT_PAGINATION = 10
 # Uncomment following line if you want document-relative URLs when developing
 # RELATIVE_URLS = True
 
-# DISPLAY_PAGES_ON_MENU = True
+THEME = "/Users/willingc/pelican-themes/pyladies-legacy"
 
-THEME = "simple"

@@ -1,9 +1,4 @@
-{% extends \"site.html\" %} {% block title %}Sponsor{% endblock %} {%
-block content %}
-
-::: {#archive .section}
-Sponsor Us
-==========
+Title: Sponsor
 
 Sponsor Us
 ----------

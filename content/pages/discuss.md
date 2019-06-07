@@ -1,7 +1,5 @@
----
-title: PyLadies Forum
-viewport: 'width=device-width, initial-scale=1.0'
----
+Title: PyLadies Forum
+
 
 ::: {.moot}
 [PyLadies](https://moot.it/i/pyladies){.moot-url}
